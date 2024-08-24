@@ -9,7 +9,6 @@ module.exports = {
         const embed = new MessageEmbed()
         .setTitle('Bot info')
         .setColor('RANDOM')
-        .setFooter('By Fnr#0017 | Github: FnrDev')
         .setThumbnail(client.user.displayAvatarURL())
         .addFields(
             {
@@ -29,7 +28,7 @@ module.exports = {
             },
             {
                 name: "You can get me for free at: ",
-                value: `[Link](https://github.com/FnrDev/moderation-discord-bot)`,
+                value: `[Link](https://github.com/seban/moderation-discord-bot)`,
                 inline: true
             }
         )
